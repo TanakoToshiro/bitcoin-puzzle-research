@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "scope": "synthetic_prefix_projection_width_32",
+  "immutable_sha256": {
+    "PLAN.json": "29b235ddd39db43f90c4b553cb113c23ecb7ed742cbdba96a2ec47908e194823",
+    "run.py": "bf6c1acb0c92d2980cdcd0cebc6b3560a807d9621e050e7b6b0f2cef76b18465",
+    "RESULTS.json": "526bedafbf04752a0cce1fcc7eb2bca51c14aee9a0a150142fef96745dbb0782",
+    "FINAL_REPORT.md": "b2c933dbacbc17b0fd83e96c5a293ca977f0140b7bfc56e50468585191841e56"
+  }
+}

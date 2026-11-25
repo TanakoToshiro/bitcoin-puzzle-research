@@ -1,0 +1,29 @@
+{
+  "scope": "Saved hashes only; no search or mathematical recomputation",
+  "series": [
+    {
+      "series": "prng64-elimination-width-20261113",
+      "status": "completed",
+      "verified_pin_entries": 20,
+      "mismatches": []
+    },
+    {
+      "series": "prng64-elimination-pilot-20261113",
+      "status": "completed",
+      "verified_pin_entries": 8,
+      "mismatches": []
+    },
+    {
+      "series": "prng64-elimination-pilot-width25-20261113",
+      "status": "completed",
+      "verified_pin_entries": 10,
+      "mismatches": []
+    },
+    {
+      "series": "prng64-elimination-pilot-width32-20261114",
+      "status": "completed",
+      "verified_pin_entries": 10,
+      "mismatches": []
+    }
+  ]
+}

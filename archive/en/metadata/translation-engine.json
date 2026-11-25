@@ -1,0 +1,20 @@
+{
+  "provider": "local CTranslate2 inference, no hosted translation requests",
+  "model": "Argos translate-ru_en-1_9",
+  "model_url": "https://data.argosopentech.com/argospm/v1/translate-ru_en-1_9.argosmodel",
+  "model_sha256": "e9ba8bf722d10a4a4c39f74289d5938fd47eac08dbe4ed0afd22d89445a5c3ac",
+  "dependencies": {
+    "ctranslate2": "4.9.1",
+    "sentencepiece": "0.2.3",
+    "numpy": "2.4.6",
+    "pyyaml": "6.0.4"
+  },
+  "device": "cpu",
+  "compute_type": "int8",
+  "beam_size": 2,
+  "repetition_penalty": 1.05,
+  "max_decoding_length": 512,
+  "protected_content": "Markdown destinations, technical literals, numeric literals, formulae, inline code and fenced blocks",
+  "translation_script_sha256": "a04c5446fc32ff6d1105582c8c020eb8d6bf040a9348ac7b2a236819e565fe5d",
+  "note": "Selected terminology and fragment punctuation normalized; separately edited pages identified in translation-manifest.csv"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "prng64-elimination-pilot-20261113",
+  "maximum_join_bits": 25,
+  "selection": "all longer prefixes in the saved search with a measured order within the table limit",
+  "ordering": "reuse the order with the fewest total table entries for each prefix within the limit",
+  "score": "exact fraction of incompatible uniform observations conditional on the same synthetic anchor",
+  "reference_draws_per_case": 8192,
+  "reference_seed": 6111325
+}

@@ -1,0 +1,20 @@
+{
+  "snapshot_date": "2026-11-25",
+  "latest_report_date": "2026-11-14",
+  "source_markdown_documents": 729,
+  "experiment_directories": 133,
+  "topics": 8,
+  "copied_evidence_files": 12,
+  "changes": {
+    "references_outside_snapshot": 1870,
+    "executable_blocks_omitted": 138,
+    "local_text_normalized": 8,
+    "current_overview_updated": 1
+  },
+  "source_files_unchanged": true,
+  "credential_path_scan": "passed for documented patterns; not a universal secret detector",
+  "scope": "Documentation snapshot with selected latest evidence; no executable research implementation or full checkpoints",
+  "language": "en",
+  "bilingual_date": "2026-11-25",
+  "translation_status": "machine-translated-reports-and-assistant-edited-overviews"
+}

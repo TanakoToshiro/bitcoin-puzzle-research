@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "date": "2026-11-25",
+  "markdown_per_language": 886,
+  "assistant_edited_english": 27,
+  "machine_translated_english": 859,
+  "byte_identical_evidence_files": 12,
+  "local_links_by_tree": {
+    "README.md": 12,
+    "en": 6878,
+    "ru": 7732
+  },
+  "broken_local_links": [],
+  "links_escaping_repository": [],
+  "heading_links_adapted": [],
+  "scope": "Structural and file integrity checks; not a complete linguistic or scientific review",
+  "automatic_translation_content_checks": {
+    "documents_checked": 885,
+    "numeric_token_order": "identical before overview editing",
+    "mathematical_symbol_counts": "identical before overview editing",
+    "scope": "Checks apply to machine-rendered bodies before navigation and separate overview editing; wording is not mathematically certified"
+  }
+}
