@@ -16,6 +16,7 @@ process.stdout.write(run(process.execPath, ['build.mjs'], here) + '\n');
 const staging = await mkdtemp(join(tmpdir(), 'puzzle-pages-'));
 try {
   run('git', ['init', '--initial-branch=gh-pages'], staging);
+  run('git', ['config', 'core.autocrlf', 'false'], staging);
   run('git', ['remote', 'add', 'origin', remote], staging);
   const existing = run('git', ['ls-remote', '--heads', 'origin', 'gh-pages'], staging);
   if (existing) {
@@ -26,7 +27,7 @@ try {
   run('git', ['config', 'user.name', run('git', ['config', 'user.name'])], staging);
   run('git', ['config', 'user.email', run('git', ['config', 'user.email'])], staging);
   run('git', ['add', '--all'], staging);
-  if (run('git', ['status', '--porcelain'])) {
+  if (run('git', ['status', '--porcelain'], staging)) {
     run('git', ['commit', '-m', `Publish website from ${source}`], staging);
     run('git', ['push', 'origin', 'HEAD:gh-pages'], staging);
   }
