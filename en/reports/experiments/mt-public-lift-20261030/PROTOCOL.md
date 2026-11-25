@@ -1,0 +1,26 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/experiments/mt-public-lift-20261030/PROTOCOL.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+> Documentary copy, 2026-11-25. [Beginning](<../../../README.md>) · [Direction](<../../../topics/02-prng-recovery.md>) · [Documents of the series](<INDEX.md>)
+> Historical plans are not a launch mission. The current outcome is [summary](<../../../docs/LATEST_RESULTS.md>).
+
+# E1f Arithmetic linkage E1e and minor amendments
+
+2026-10-30. Original E1e `20261030-150813-643fdd30` and E6H `20261030-122003-bb9bb8` Matrixes, certificates and old journals remain unchanged. New computations are just analysis of ready-made lines and individual synthetic problems on the computer secp256k1. The goal is to use public points without free knowledge of the upper scalars.
+
+## The final volume before viewing the results
+
+1. Four branches: fixed-reverse-big-s1, fixed-forward-big-s1, api-bits_i-na-s1-zero (three initial examples); api-order3-na-s1-zero control pre_increment. Used all 173 The unknown scalar, not the chosen lines of the base A/rhs and target strings to construct precise decompositions of numerical scalars by character Boolean-group, over the field of order secp256k1. Check the rank of the matrix of these coefficients. Full rank excludes universal arithmetic equality with fixed coefficients modulo n on the appropriate family of conditions.
+2. For accurate accounting of boundaries to work on a non-empty affine section: senior non-forced bit coordinate No256 It's zero pre_increment additionally select one zero bit of each coordinate from the permissible witness: overflow at +1 The absence of identity, even in such a cross section, excludes identity throughout the family, and does not exclude identity in other specially selected subfamilies.
+3. On the same decompositions, examine the combinations of the two available public scalars 101 published-point 173 Unknown (No140,145,150,155,160 no161–256). For a pair, the coefficients are normalized to (1,b). Consider ±1 all b, which can reduce at least one general non-zero character; other b They have the same set of remaining characters. This is the ultimate complete analysis of the support sets for two-membered combinations, not the brute force n measure the number of independent GF(2)-The forms of the remaining correction, the number of members and the particulars of each scalar, do not declare dimensionality to be a lower bound for all algorithms.
+4. For the enumeration method under study, the ceiling is real-world. 32 independent unknown bits and proven additive separability MITM. If no corresponding minor amendment is found, fix the obstacle; do not run DLP real addresses.
+5. New synthetic positive control: X=2^w+x, Y=2^w+(x XOR C), C publicly popcount(C)=r. From QX,QY calculated D=QX−QY+C G=2(x AND C)G. MITM posture r The selected bits are determined only by an amendment; the full x The algorithm doesn't get it t - packing these r bits, published only HASH160((2^r+t)G). Independent methods: BSGS upper x direct search of the target HASH160. The method of comparison is selected in advance according to the worst estimates of cost, both are additionally measured.
+6. Synthetic (artistic)w,r): (12,4),(16,8),(20,8),(24,12),(28,16),(28,20), and tight controls (12,12),(16,16),(20,20), All operations are carried out in this secp256k1 with reduced ranges. Do not repeat Armory-chaincode model E6H. Measure additions/doubling/hashes/Searches in the table, number of records, peak Python-memory tracemalloc and time. Tracemalloc Does not measure internal memory libsecp256k1; Explicitly indicate the limit of the metric.
+7. The algorithm is run by a separate process and accepts only JSON with public parameters, points and targets HASH160. Its module does not read files and does not receive them seed The truth of the current case is stored only in the memory of the verification process until all the case algorithms are completed; then it is stored for reproducibility. This is separation of research interfaces, not a statement of protection against a malicious process with access to the entire computer.
+
+## Controls
+
+Exhaustive inspection Fourier/Walsh-gradation Boolean-examples, including known arithmetic identity and its absence; exclusion of erroneous substitution XOR addition; pre_increment overflow and cut without; scalar boundary. Positive/Negative problems of the public algorithm, agreeing to direct search on small cases, checking the decomposition of real strings on new permissible states, without transmitting them to the public algorithm, checking hashes of inputs and skipping completed stages.
+
+## Boundaries of withdrawal
+
+Character rank excludes only universal arithmetic linear scalar combinations in a given family. It does not exclude algorithms with coefficients calculated nonlinearly from specific public points, special subfamilies, additional observations or other generator. The size of the amendment describes the cost of the tested parameterization, the unproven complexity ECDLP. At an unknown target point, you cannot apply BSGS her HASH160. A new positive synthetic example does not carry the winnings on its own E1e.

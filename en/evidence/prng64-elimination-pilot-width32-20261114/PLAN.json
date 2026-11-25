@@ -1,0 +1,8 @@
+{
+  "parent": "prng64-elimination-pilot-width25-20261113",
+  "maximum_join_bits": 32,
+  "selection": "every prefix longer than the corresponding width-25 result, using the saved orders and choosing the lowest total entry count among orders within the table limit",
+  "score": "exact fraction of incompatible uniform observations conditional on the same synthetic anchor",
+  "reference_draws_per_case": 32768,
+  "reference_seed": 6111432
+}

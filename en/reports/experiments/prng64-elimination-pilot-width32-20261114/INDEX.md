@@ -1,0 +1,9 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/experiments/prng64-elimination-pilot-width32-20261114/INDEX.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+# prng64-elimination-pilot-width32-20261114
+
+[Beginning](<../../../README.md>) · [Direction](<../../../topics/02-prng-recovery.md>)
+
+First read the summaries, then the model boundaries and the journal. The protocol doesn't mean completion; the statuses of the individual stages are specified in the final report.
+
+- [RNG64 Longer prefixes at the limit 32 variables FINAL_REPORT.md](<FINAL_REPORT.md>)

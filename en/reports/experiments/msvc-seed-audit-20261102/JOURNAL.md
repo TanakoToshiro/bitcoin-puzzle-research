@@ -1,0 +1,22 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/experiments/msvc-seed-audit-20261102/JOURNAL.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+> Documentary copy, 2026-11-25. [Beginning](<../../../README.md>) · [Direction](<../../../topics/01-historical-generators.md>) · [Documents of the series](<INDEX.md>)
+> Historical plans are not a launch mission. The current outcome is [summary](<../../../docs/LATEST_RESULTS.md>).
+
+# Journal MSVC-01
+
+02.11.2026, Moscow, exact UTC downloading SOURCES.json. Current SX/GPU-The processes are unchanged.
+
+1. A separate protocol was created, archival documentation was preserved Visual Studio 2013, formality BX v2.0.0 and build-Files, release published 14.12.2014; Windows assets loaded 13.12.2014. The draft indicates PlatformToolset CTP_Nov2013. Data is not replaced by modern data STL.
+2. Source random_fill trigger random_device and initialize default_random_engine One result; bytes are equal engine()%255. Archival documentation VS2013 direct default_random_engine=mt19937. Full domain confirmed uint32, including 0, not minstd [1,2^31−1).
+3. Downloaded official x86/x64 PE; linker version 12.0, constants discovered MT And the actual machine code EXE They didn't start. The new folder has it installed capstone 5.0.9, pefile 2024.8.26, unicorn 2.1.4; The general environment has not been updated.
+4. V x64 highlighted random_fill: afterward seed start MT init s 1812433253, further twist/tempering percent255. Himself random_device makes two calls in the visible path: one result in the design is not used in MT, second uint32. Therefore, two applications do not mean 64-It's a bit state. It's the word you're using that's inserted into the emulator/The cryptographic provider is not emulated.
+5. 80 cases of official code emulation, length 0/16/32/625/2500 boundary/pseudo-random seed, giveaway 50768 matching-byte NumPy MT19937. Checked out for first block 624 The emulator only allows blocks random_fill his MT-helper, limiting/time. System Windows And the binarnica network is not available.
+6. For the first 32 Exact abbreviated initialization is implemented: sufficient MT state[0..428]In the calculation, the first ones are retained 33 It's a decline in computational value/Related price, no additional reduction of domain seed. 136 seed and 4352 The words coincided with the independent Python MT and NumPy; Shortened prefixes are controlled.
+7. The production HD retaining 20 paths and lengths 16/32: 40 New patterns MSVC RNG-Some of them are different from both tested minstd; They've saved counterexamples 160 child/public comparison affine-EC; 83 The actual published solutions are checked by range, public/address. A true full search has not yet been conducted.
+
+8. After the domain confirmation, only a small one is performed CPU-pilot4096 seed ×40 Four blocks, four blocks 23,271c, 176,015 seed/s, candidate0. Coverage0,00009537%; The result doesn't rule out the model Python-standard282day-long GPU. The upper states are separately verified by controls, not declared covered by a real search.
+9. Real scan tested40 planted seed in seven-element intervals and40 They've changed the negative examples. They all worked0 new blocks,6 file run preserved SHA-256/mtime. History MSVC contains218 unique commits on three pages; the eight original files matched Git blob tree. Materials and future GPU-The task is saved, the general summary is supplemented.
+10. Clarification of the date of documentation: the page relates to VS2013, but ms.date equal29.07.2015. It is used in conjunction with the December official binary, rather than as a stand-alone proof of algorithm availability Puzzle. early SX/MSVC uniform distribution The question remains incomplete; the current SX GNU/libc++ It doesn't close it, but it's new BX-The pilot doesn't replace him.
+
+Errors of preparation: assumed src/utility.cpp gave 404, righteousness src/utility/utility.cpp found tree. The first two pages of history MSVC had 100 So the third page was uploaded, and the first page wasn't declared the full story PE-helper through exception table found out leaf-function and showed the previous address; helper then disassembled directly for the purpose call, The saved file has been corrected prior to acceptance. Web-open archival page Microsoft Not successful, but direct loading of the same page is successful and fixed SHA-256.

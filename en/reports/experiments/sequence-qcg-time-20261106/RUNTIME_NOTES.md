@@ -1,0 +1,14 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/experiments/sequence-qcg-time-20261106/RUNTIME_NOTES.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+> Documentary copy, 2026-11-25. [Beginning](<../../../README.md>) · [Direction](<../../../topics/04-sequences-and-lattices.md>) · [Documents of the series](<INDEX.md>)
+> Historical plans are not a launch mission. The current outcome is [summary](<../../../docs/LATEST_RESULTS.md>).
+
+# Binding and profile boundaries
+
+Prior to successful validation, two technical errors were saved, not search results: validation_a Didn't get to Python worker due to the transmission of a path with gaps through bash; validation_a2 I built a small model, but I stopped check When accessing a remote private attribute z3core._lib. V validation_a3 direct wsl --exec, RLIMIT_AS separately Python-Checking and checking the actual library through /proc/self/maps or GetModuleFileNameW. Original errors files/The logs were not rewritten. The formulas for the corrections were unchanged.
+
+Linux has 180 from external time to profile instead of 150 s Windows launch-on WSL upload files through /mnt/c; internal check All three libraries are equal 120 For Linux limited to the virtual address space (RLIMIT_AS=2 GiB), for Windows — working/private (2 GiB). These are the diagnostic resource boundaries of different OSes, not a paired comparison of peak memory Linux collected by the same flags; the frequency of stages and times of this profile are not declared as an exact percentage Windows.
+
+Diagnostic assembly is forced to use Z3_FF_HAS_UINT128=0; This eliminates platform inclusion F4 into GCC. Absence __uint128 at MSVC It is not in itself a complete proof of the flags that have been placed Windows DLL. Established DLL does not change; the suitability of the parameters and acceleration are checked separately on it.
+
+Ten old exact small inputs are validated at each Linux-The library, which is also a well-known example p=17 and the old contradiction dependency trigger Tactic(smt) directly ff.root_split=false and solve_eqs=false, These special settings are used only for diagnostic validation; the full-size profile retains the original strategy SEQ-26.

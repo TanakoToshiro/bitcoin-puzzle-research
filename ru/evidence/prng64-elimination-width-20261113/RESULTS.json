@@ -1,0 +1,607 @@
+{
+  "status": "completed",
+  "seconds": 7.8900392000000465,
+  "fill_candidates": 12,
+  "cases": [
+    {
+      "series": "RNG64-04",
+      "case": "plus23-17-26-big-02",
+      "file": "prng64-anchor-20261110/cases/plus23-17-26-big-02/synthetic/cms/formula-000.json",
+      "sha256": "0956f06bf18eed08fdfe2703d0d8c587bb2fae452d8a34ca9b2af987219098a7",
+      "cnf": 394,
+      "xor": 268,
+      "original": {
+        "variables": 393,
+        "edges": 9663,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 131,
+        "limited_min_fill_width": 130,
+        "best_measured_width": 130,
+        "best_peak_bitpacked_bytes": 170141183460469231731687303715884105728
+      },
+      "ternary": {
+        "variables": 1191,
+        "edges": 3428,
+        "max_scope": 3,
+        "minor_lower": 31,
+        "lower": 31,
+        "min_degree_width": 132,
+        "limited_min_fill_width": 131,
+        "best_measured_width": 131,
+        "best_peak_bitpacked_bytes": 340282366920938463463374607431768211456
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-17-26-big-03",
+      "file": "prng64-anchor-20261110/cases/plus23-17-26-big-03/synthetic/cms/formula-000.json",
+      "sha256": "61129fd36909eb7781f10eca6284aedef01423d3482626843ea519bc3858a98f",
+      "cnf": 394,
+      "xor": 268,
+      "original": {
+        "variables": 393,
+        "edges": 9657,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 130,
+        "best_measured_width": 130,
+        "best_peak_bitpacked_bytes": 170141183460469231731687303715884105728
+      },
+      "ternary": {
+        "variables": 1191,
+        "edges": 3428,
+        "max_scope": 3,
+        "minor_lower": 31,
+        "lower": 31,
+        "min_degree_width": 132,
+        "limited_min_fill_width": 130,
+        "best_measured_width": 130,
+        "best_peak_bitpacked_bytes": 170141183460469231731687303715884105728
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-17-26-little-02",
+      "file": "prng64-anchor-20261110/cases/plus23-17-26-little-02/synthetic/cms/formula-000.json",
+      "sha256": "06f5e184d1980cfe9f0bc1c288d3fc52c7040a9fcf41bdaec8c6f6b2f7f555e4",
+      "cnf": 727,
+      "xor": 324,
+      "original": {
+        "variables": 505,
+        "edges": 10263,
+        "max_scope": 128,
+        "minor_lower": 129,
+        "lower": 129,
+        "min_degree_width": 131,
+        "limited_min_fill_width": 133,
+        "best_measured_width": 131,
+        "best_peak_bitpacked_bytes": 340282366920938463463374607431768211456
+      },
+      "ternary": {
+        "variables": 1456,
+        "edges": 4334,
+        "max_scope": 3,
+        "minor_lower": 33,
+        "lower": 33,
+        "min_degree_width": 132,
+        "limited_min_fill_width": 132,
+        "best_measured_width": 132,
+        "best_peak_bitpacked_bytes": 680564733841876926926749214863536422912
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-17-26-little-03",
+      "file": "prng64-anchor-20261110/cases/plus23-17-26-little-03/synthetic/cms/formula-000.json",
+      "sha256": "ec28f9a8a3c207b907feee6d28f9793156cfca0479066e4c354e1d51e0db8cb2",
+      "cnf": 727,
+      "xor": 324,
+      "original": {
+        "variables": 505,
+        "edges": 10201,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 130,
+        "best_measured_width": 130,
+        "best_peak_bitpacked_bytes": 170141183460469231731687303715884105728
+      },
+      "ternary": {
+        "variables": 1456,
+        "edges": 4310,
+        "max_scope": 3,
+        "minor_lower": 34,
+        "lower": 34,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-18-5-big-02",
+      "file": "prng64-anchor-20261110/cases/plus23-18-5-big-02/synthetic/cms/formula-000.json",
+      "sha256": "d1325d6361c8790539ad696b47eac9418c6d0d1715da47d63b86b7eaf2aa96dd",
+      "cnf": 394,
+      "xor": 268,
+      "original": {
+        "variables": 393,
+        "edges": 9865,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 129,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      },
+      "ternary": {
+        "variables": 1393,
+        "edges": 4034,
+        "max_scope": 3,
+        "minor_lower": 33,
+        "lower": 33,
+        "min_degree_width": 129,
+        "limited_min_fill_width": 116,
+        "best_measured_width": 116,
+        "best_peak_bitpacked_bytes": 10384593717069655257060992658440192
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-18-5-big-03",
+      "file": "prng64-anchor-20261110/cases/plus23-18-5-big-03/synthetic/cms/formula-000.json",
+      "sha256": "25a5bd335c2c9f30650bd234aa543c3e8af270bbe4a04ef5feb509ee4bb93449",
+      "cnf": 394,
+      "xor": 268,
+      "original": {
+        "variables": 393,
+        "edges": 9859,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 129,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      },
+      "ternary": {
+        "variables": 1393,
+        "edges": 4034,
+        "max_scope": 3,
+        "minor_lower": 33,
+        "lower": 33,
+        "min_degree_width": 129,
+        "limited_min_fill_width": 116,
+        "best_measured_width": 116,
+        "best_peak_bitpacked_bytes": 10384593717069655257060992658440192
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-18-5-big-06",
+      "file": "prng64-anchor-20261110/cases/plus23-18-5-big-06/synthetic/cms/formula-000.json",
+      "sha256": "d052e5640bccbed5894173aa11fe3027270ffee3c07f34b988e4385b5b551a64",
+      "cnf": 394,
+      "xor": 274,
+      "original": {
+        "variables": 399,
+        "edges": 9703,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 129,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      },
+      "ternary": {
+        "variables": 1225,
+        "edges": 3519,
+        "max_scope": 3,
+        "minor_lower": 31,
+        "lower": 31,
+        "min_degree_width": 128,
+        "limited_min_fill_width": 125,
+        "best_measured_width": 125,
+        "best_peak_bitpacked_bytes": 5316911983139663491615228241121378304
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-18-5-little-02",
+      "file": "prng64-anchor-20261110/cases/plus23-18-5-little-02/synthetic/cms/formula-000.json",
+      "sha256": "ccf0e3af7ead7ff9235306de091698f38a575cdf4e3bd6821a5471646f61ded7",
+      "cnf": 727,
+      "xor": 324,
+      "original": {
+        "variables": 505,
+        "edges": 10484,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 130,
+        "best_measured_width": 130,
+        "best_peak_bitpacked_bytes": 170141183460469231731687303715884105728
+      },
+      "ternary": {
+        "variables": 1677,
+        "edges": 5015,
+        "max_scope": 3,
+        "minor_lower": 36,
+        "lower": 36,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 118,
+        "best_measured_width": 118,
+        "best_peak_bitpacked_bytes": 41538374868278621028243970633760768
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-18-5-little-03",
+      "file": "prng64-anchor-20261110/cases/plus23-18-5-little-03/synthetic/cms/formula-000.json",
+      "sha256": "a37e949afe7aaba0a72ab7b4253df9cbd62ce7e75be2a67cf59daa2aaf32d9a2",
+      "cnf": 727,
+      "xor": 324,
+      "original": {
+        "variables": 505,
+        "edges": 10422,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 129,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      },
+      "ternary": {
+        "variables": 1677,
+        "edges": 5012,
+        "max_scope": 3,
+        "minor_lower": 34,
+        "lower": 34,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 119,
+        "best_measured_width": 119,
+        "best_peak_bitpacked_bytes": 83076749736557242056487941267521536
+      }
+    },
+    {
+      "series": "RNG64-04",
+      "case": "plus23-18-5-little-06",
+      "file": "prng64-anchor-20261110/cases/plus23-18-5-little-06/synthetic/cms/formula-000.json",
+      "sha256": "a7f97b8c0cad41e8d06e81876e6d4230fb3985bd5a15cb58747f092c7ad1def9",
+      "cnf": 727,
+      "xor": 386,
+      "original": {
+        "variables": 567,
+        "edges": 11854,
+        "max_scope": 128,
+        "minor_lower": 128,
+        "lower": 128,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      },
+      "ternary": {
+        "variables": 2985,
+        "edges": 8864,
+        "max_scope": 3,
+        "minor_lower": 47,
+        "lower": 47,
+        "min_degree_width": 129,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-17-26-big-02",
+      "file": "prng64-carry-20261110/cases/plus23-17-26-big-02/synthetic/cms/formula-000.json",
+      "sha256": "228126933686b0691479c74efcf8de493b388aa8c52c439f1c0a2d851ac59fae",
+      "cnf": 390,
+      "xor": 267,
+      "original": {
+        "variables": 391,
+        "edges": 3757,
+        "max_scope": 14,
+        "minor_lower": 49,
+        "lower": 49,
+        "min_degree_width": 131,
+        "limited_min_fill_width": 128,
+        "best_measured_width": 128,
+        "best_peak_bitpacked_bytes": 42535295865117307932921825928971026432
+      },
+      "ternary": {
+        "variables": 1108,
+        "edges": 3197,
+        "max_scope": 3,
+        "minor_lower": 31,
+        "lower": 31,
+        "min_degree_width": 133,
+        "limited_min_fill_width": 130,
+        "best_measured_width": 130,
+        "best_peak_bitpacked_bytes": 170141183460469231731687303715884105728
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-17-26-big-03",
+      "file": "prng64-carry-20261110/cases/plus23-17-26-big-03/synthetic/cms/formula-000.json",
+      "sha256": "550fa8d092fa37a6178b2225fb249a9f76abe4cfc10913cc49c88cbdc1af49ab",
+      "cnf": 387,
+      "xor": 267,
+      "original": {
+        "variables": 390,
+        "edges": 3728,
+        "max_scope": 14,
+        "minor_lower": 49,
+        "lower": 49,
+        "min_degree_width": 133,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      },
+      "ternary": {
+        "variables": 1103,
+        "edges": 3181,
+        "max_scope": 3,
+        "minor_lower": 29,
+        "lower": 29,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-17-26-little-02",
+      "file": "prng64-carry-20261110/cases/plus23-17-26-little-02/synthetic/cms/formula-000.json",
+      "sha256": "02dd3172379fca6c452bf21d69803ef0b5a04c288019bd677c404d92185c896b",
+      "cnf": 720,
+      "xor": 323,
+      "original": {
+        "variables": 502,
+        "edges": 4339,
+        "max_scope": 14,
+        "minor_lower": 51,
+        "lower": 51,
+        "min_degree_width": 128,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 128,
+        "best_peak_bitpacked_bytes": 42535295865117307932921825928971026432
+      },
+      "ternary": {
+        "variables": 1344,
+        "edges": 4053,
+        "max_scope": 3,
+        "minor_lower": 33,
+        "lower": 33,
+        "min_degree_width": 130,
+        "limited_min_fill_width": 129,
+        "best_measured_width": 129,
+        "best_peak_bitpacked_bytes": 85070591730234615865843651857942052864
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-17-26-little-03",
+      "file": "prng64-carry-20261110/cases/plus23-17-26-little-03/synthetic/cms/formula-000.json",
+      "sha256": "97b546b1c5d1b30088b25a66dbacbe87c3b2d3423a13ed5334713afed01f8c26",
+      "cnf": 720,
+      "xor": 323,
+      "original": {
+        "variables": 502,
+        "edges": 4339,
+        "max_scope": 14,
+        "minor_lower": 52,
+        "lower": 52,
+        "min_degree_width": 127,
+        "limited_min_fill_width": 127,
+        "best_measured_width": 127,
+        "best_peak_bitpacked_bytes": 21267647932558653966460912964485513216
+      },
+      "ternary": {
+        "variables": 1344,
+        "edges": 4053,
+        "max_scope": 3,
+        "minor_lower": 33,
+        "lower": 33,
+        "min_degree_width": 127,
+        "limited_min_fill_width": 128,
+        "best_measured_width": 127,
+        "best_peak_bitpacked_bytes": 21267647932558653966460912964485513216
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-18-5-big-02",
+      "file": "prng64-carry-20261110/cases/plus23-18-5-big-02/synthetic/cms/formula-000.json",
+      "sha256": "1338fe4aad9673447dd34971ba4401ca7c15a00dc32ba2b485300a2d36acd577",
+      "cnf": 387,
+      "xor": 267,
+      "original": {
+        "variables": 390,
+        "edges": 4022,
+        "max_scope": 14,
+        "minor_lower": 53,
+        "lower": 53,
+        "min_degree_width": 117,
+        "limited_min_fill_width": 117,
+        "best_measured_width": 117,
+        "best_peak_bitpacked_bytes": 20769187434139310514121985316880384
+      },
+      "ternary": {
+        "variables": 1229,
+        "edges": 3564,
+        "max_scope": 3,
+        "minor_lower": 32,
+        "lower": 32,
+        "min_degree_width": 119,
+        "limited_min_fill_width": 119,
+        "best_measured_width": 119,
+        "best_peak_bitpacked_bytes": 83076749736557242056487941267521536
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-18-5-big-03",
+      "file": "prng64-carry-20261110/cases/plus23-18-5-big-03/synthetic/cms/formula-000.json",
+      "sha256": "7d75c2b0a6dde90ba6e03a1649a573deeffa6ef15c1b780a31e3d32a603951b4",
+      "cnf": 387,
+      "xor": 267,
+      "original": {
+        "variables": 390,
+        "edges": 4022,
+        "max_scope": 14,
+        "minor_lower": 53,
+        "lower": 53,
+        "min_degree_width": 120,
+        "limited_min_fill_width": 117,
+        "best_measured_width": 117,
+        "best_peak_bitpacked_bytes": 20769187434139310514121985316880384
+      },
+      "ternary": {
+        "variables": 1229,
+        "edges": 3564,
+        "max_scope": 3,
+        "minor_lower": 31,
+        "lower": 31,
+        "min_degree_width": 119,
+        "limited_min_fill_width": 116,
+        "best_measured_width": 116,
+        "best_peak_bitpacked_bytes": 10384593717069655257060992658440192
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-18-5-big-06",
+      "file": "prng64-carry-20261110/cases/plus23-18-5-big-06/synthetic/cms/formula-000.json",
+      "sha256": "976b0a9739018ac6ee43435dba3125c8a85142d326aeb8ad9278a1e7a1aaa1ab",
+      "cnf": 390,
+      "xor": 273,
+      "original": {
+        "variables": 397,
+        "edges": 3203,
+        "max_scope": 18,
+        "minor_lower": 46,
+        "lower": 46,
+        "min_degree_width": 118,
+        "limited_min_fill_width": 115,
+        "best_measured_width": 115,
+        "best_peak_bitpacked_bytes": 5192296858534827628530496329220096
+      },
+      "ternary": {
+        "variables": 968,
+        "edges": 2775,
+        "max_scope": 3,
+        "minor_lower": 28,
+        "lower": 28,
+        "min_degree_width": 118,
+        "limited_min_fill_width": 117,
+        "best_measured_width": 117,
+        "best_peak_bitpacked_bytes": 20769187434139310514121985316880384
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-18-5-little-02",
+      "file": "prng64-carry-20261110/cases/plus23-18-5-little-02/synthetic/cms/formula-000.json",
+      "sha256": "b970aaa860ff367d4d09efcb3713c2cdf45dec031e6b259a9f249ee86c41e28a",
+      "cnf": 723,
+      "xor": 323,
+      "original": {
+        "variables": 503,
+        "edges": 4667,
+        "max_scope": 14,
+        "minor_lower": 54,
+        "lower": 54,
+        "min_degree_width": 122,
+        "limited_min_fill_width": 117,
+        "best_measured_width": 117,
+        "best_peak_bitpacked_bytes": 20769187434139310514121985316880384
+      },
+      "ternary": {
+        "variables": 1515,
+        "edges": 4555,
+        "max_scope": 3,
+        "minor_lower": 35,
+        "lower": 35,
+        "min_degree_width": 119,
+        "limited_min_fill_width": 117,
+        "best_measured_width": 117,
+        "best_peak_bitpacked_bytes": 20769187434139310514121985316880384
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-18-5-little-03",
+      "file": "prng64-carry-20261110/cases/plus23-18-5-little-03/synthetic/cms/formula-000.json",
+      "sha256": "0be34598bdcf046cfd620ee1a0fb34c1336c31dc41a396a1eae78b23b7322998",
+      "cnf": 723,
+      "xor": 323,
+      "original": {
+        "variables": 503,
+        "edges": 4667,
+        "max_scope": 14,
+        "minor_lower": 56,
+        "lower": 56,
+        "min_degree_width": 120,
+        "limited_min_fill_width": 116,
+        "best_measured_width": 116,
+        "best_peak_bitpacked_bytes": 10384593717069655257060992658440192
+      },
+      "ternary": {
+        "variables": 1515,
+        "edges": 4555,
+        "max_scope": 3,
+        "minor_lower": 34,
+        "lower": 34,
+        "min_degree_width": 118,
+        "limited_min_fill_width": 119,
+        "best_measured_width": 118,
+        "best_peak_bitpacked_bytes": 41538374868278621028243970633760768
+      }
+    },
+    {
+      "series": "RNG64-05",
+      "case": "plus23-18-5-little-06",
+      "file": "prng64-carry-20261110/cases/plus23-18-5-little-06/synthetic/cms/formula-000.json",
+      "sha256": "8b4d258bfcf3fc443e73411364b59ea131139f9070d0461f493805842ed07832",
+      "cnf": 723,
+      "xor": 385,
+      "original": {
+        "variables": 565,
+        "edges": 6833,
+        "max_scope": 25,
+        "minor_lower": 62,
+        "lower": 62,
+        "min_degree_width": 127,
+        "limited_min_fill_width": 127,
+        "best_measured_width": 127,
+        "best_peak_bitpacked_bytes": 21267647932558653966460912964485513216
+      },
+      "ternary": {
+        "variables": 2519,
+        "edges": 7498,
+        "max_scope": 3,
+        "minor_lower": 44,
+        "lower": 44,
+        "min_degree_width": 127,
+        "limited_min_fill_width": 127,
+        "best_measured_width": 127,
+        "best_peak_bitpacked_bytes": 21267647932558653966460912964485513216
+      }
+    }
+  ]
+}

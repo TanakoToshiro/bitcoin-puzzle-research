@@ -1,0 +1,155 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/experiments/sequence-structure-20261102/JOURNAL.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+> Documentary copy, 2026-11-25. [Beginning](<../../../README.md>) · [Direction](<../../../topics/04-sequences-and-lattices.md>) · [Documents of the series](<INDEX.md>)
+> Historical plans are not a launch mission. The current outcome is [summary](<../../../docs/LATEST_RESULTS.md>).
+
+# SEQ-01 magazine
+
+- 2026-11-02: The user’s task is to check the lower bits without being tied to the wallet and the order structure/alternation/Read the general sections RESULTS, NOTES, EXPERIMENT_REVIEW; former PRNG/MT-The series does not replace the selected general set of short recurses GPU-The processes haven't changed.
+- Before the analysis of real numbers recorded PROTOCOL.md: three statistical families, 1023 Zero lines, Holm 0.01, 30 It's a few minutes of computation 83 decisions, of which 1–70 in a row.
+- The first program controls were held: 480 GF(2)-systems 480 affine-systems are checked with exhaustive brute force; five positive examples. Before the main run, when viewing the code, the width of the input of the shift predictor is corrected: the word is masked to right-shift, To keep the bits above the registered width, tightened control XOR: It requires the right mask of coefficients, not just order. Real statistics were not computed before correction.
+
+- 2026-11-02T01:53:08.888306+00:00: Recorded SEQ-01-0681891fc7a8. Code/protocol/data/version: MANIFEST.json.
+
+- 2026-11-02T01:53:09.318979+00:00: Controls completed: CONTROLS.json; before analyzing real sequences.
+
+- 2026-11-02T01:53:09.458070+00:00: Real models/statistics are retained in REAL.json. Before zero calibration, there is no conclusion about significance.
+
+- 2026-11-02T01:53:10.188505+00:00: Zero block 0–15 finished 0.691s; everything 16/1023.
+
+- 2026-11-02T01:53:10.250812+00:00: The challenge is complete: 16/1023; new-look 16; 1.398s. Completed blocks were not repeated.
+
+- 2026-11-02T01:53:24.619971+00:00: Zero block 16–31 finished 0.762s; everything 32/1023.
+
+- 2026-11-02T01:53:25.365786+00:00: Zero block 32–47 finished 0.705s; everything 48/1023.
+
+- 2026-11-02T01:53:26.124489+00:00: Zero block 48–63 finished 0.721s; everything 64/1023.
+
+- 2026-11-02T01:53:26.886839+00:00: Zero block 64–79 finished 0.723s; everything 80/1023.
+
+- 2026-11-02T01:53:27.661645+00:00: Zero block 80–95 finished 0.736s; everything 96/1023.
+
+- 2026-11-02T01:53:28.398343+00:00: Zero block 96–111 finished 0.700s; everything 112/1023.
+
+- 2026-11-02T01:53:29.169165+00:00: Zero block 112–127 finished 0.727s; everything 128/1023.
+
+- 2026-11-02T01:53:29.954919+00:00: Zero block 128–143 finished 0.748s; everything 144/1023.
+
+- 2026-11-02T01:53:30.719588+00:00: Zero block 144–159 finished 0.725s; everything 160/1023.
+
+- 2026-11-02T01:53:31.495545+00:00: Zero block 160–175 finished 0.726s; everything 176/1023.
+
+- 2026-11-02T01:53:32.233211+00:00: Zero block 176–191 finished 0.693s; everything 192/1023.
+
+- 2026-11-02T01:53:32.968363+00:00: Zero block 192–207 finished 0.692s; everything 208/1023.
+
+- 2026-11-02T01:53:33.751875+00:00: Zero block 208–223 finished 0.715s; everything 224/1023.
+
+- 2026-11-02T01:53:34.529243+00:00: Zero block 224–239 finished 0.733s; everything 240/1023.
+
+- 2026-11-02T01:53:35.326249+00:00: Zero block 240–255 finished 0.752s; everything 256/1023.
+
+- 2026-11-02T01:53:36.101397+00:00: Zero block 256–271 finished 0.726s; everything 272/1023.
+
+- 2026-11-02T01:53:36.872909+00:00: Zero block 272–287 finished 0.716s; everything 288/1023.
+
+- 2026-11-02T01:53:37.667626+00:00: Zero block 288–303 finished 0.747s; everything 304/1023.
+
+- 2026-11-02T01:53:38.454099+00:00: Zero block 304–319 finished 0.739s; everything 320/1023.
+
+- 2026-11-02T01:53:39.270353+00:00: Zero block 320–335 finished 0.770s; everything 336/1023.
+
+- 2026-11-02T01:53:40.068566+00:00: Zero block 336–351 finished 0.755s; everything 352/1023.
+
+- 2026-11-02T01:53:40.827680+00:00: Zero block 352–367 finished 0.712s; everything 368/1023.
+
+- 2026-11-02T01:53:41.595614+00:00: Zero block 368–383 finished 0.723s; everything 384/1023.
+
+- 2026-11-02T01:53:42.370246+00:00: Zero block 384–399 finished 0.726s; everything 400/1023.
+
+- 2026-11-02T01:53:43.173277+00:00: Zero block 400–415 finished 0.752s; everything 416/1023.
+
+- 2026-11-02T01:53:44.042646+00:00: Zero block 416–431 finished 0.813s; everything 432/1023.
+
+- 2026-11-02T01:53:44.820412+00:00: Zero block 432–447 finished 0.727s; everything 448/1023.
+
+- 2026-11-02T01:53:45.615971+00:00: Zero block 448–463 finished 0.750s; everything 464/1023.
+
+- 2026-11-02T01:53:46.416327+00:00: Zero block 464–479 finished 0.735s; everything 480/1023.
+
+- 2026-11-02T01:53:47.194203+00:00: Zero block 480–495 finished 0.731s; everything 496/1023.
+
+- 2026-11-02T01:53:47.951273+00:00: Zero block 496–511 finished 0.712s; everything 512/1023.
+
+- 2026-11-02T01:53:48.712227+00:00: Zero block 512–527 finished 0.699s; everything 528/1023.
+
+- 2026-11-02T01:53:49.499977+00:00: Zero block 528–543 finished 0.740s; everything 544/1023.
+
+- 2026-11-02T01:53:50.280502+00:00: Zero block 544–559 finished 0.730s; everything 560/1023.
+
+- 2026-11-02T01:53:51.081053+00:00: Zero block 560–575 finished 0.739s; everything 576/1023.
+
+- 2026-11-02T01:53:51.879041+00:00: Zero block 576–591 finished 0.740s; everything 592/1023.
+
+- 2026-11-02T01:53:52.699886+00:00: Zero block 592–607 finished 0.770s; everything 608/1023.
+
+- 2026-11-02T01:53:53.440749+00:00: Zero block 608–623 finished 0.691s; everything 624/1023.
+
+- 2026-11-02T01:53:54.219788+00:00: Zero block 624–639 finished 0.723s; everything 640/1023.
+
+- 2026-11-02T01:53:54.975949+00:00: Zero block 640–655 finished 0.706s; everything 656/1023.
+
+- 2026-11-02T01:53:55.743680+00:00: Zero block 656–671 finished 0.715s; everything 672/1023.
+
+- 2026-11-02T01:53:56.540969+00:00: Zero block 672–687 finished 0.749s; everything 688/1023.
+
+- 2026-11-02T01:53:57.319608+00:00: Zero block 688–703 finished 0.703s; everything 704/1023.
+
+- 2026-11-02T01:53:58.102618+00:00: Zero block 704–719 finished 0.727s; everything 720/1023.
+
+- 2026-11-02T01:53:58.848114+00:00: Zero block 720–735 finished 0.694s; everything 736/1023.
+
+- 2026-11-02T01:53:59.610126+00:00: Zero block 736–751 finished 0.706s; everything 752/1023.
+
+- 2026-11-02T01:54:00.408007+00:00: Zero block 752–767 finished 0.744s; everything 768/1023.
+
+- 2026-11-02T01:54:01.155734+00:00: Zero block 768–783 finished 0.695s; everything 784/1023.
+
+- 2026-11-02T01:54:01.916741+00:00: Zero block 784–799 finished 0.711s; everything 800/1023.
+
+- 2026-11-02T01:54:02.723082+00:00: Zero block 800–815 finished 0.749s; everything 816/1023.
+
+- 2026-11-02T01:54:03.484516+00:00: Zero block 816–831 finished 0.704s; everything 832/1023.
+
+- 2026-11-02T01:54:04.266783+00:00: Zero block 832–847 finished 0.718s; everything 848/1023.
+
+- 2026-11-02T01:54:05.062862+00:00: Zero block 848–863 finished 0.731s; everything 864/1023.
+
+- 2026-11-02T01:54:05.856755+00:00: Zero block 864–879 finished 0.734s; everything 880/1023.
+
+- 2026-11-02T01:54:06.656683+00:00: Zero block 880–895 finished 0.747s; everything 896/1023.
+
+- 2026-11-02T01:54:07.435905+00:00: Zero block 896–911 finished 0.693s; everything 912/1023.
+
+- 2026-11-02T01:54:08.258867+00:00: Zero block 912–927 finished 0.761s; everything 928/1023.
+
+- 2026-11-02T01:54:09.058625+00:00: Zero block 928–943 finished 0.733s; everything 944/1023.
+
+- 2026-11-02T01:54:09.865904+00:00: Zero block 944–959 finished 0.742s; everything 960/1023.
+
+- 2026-11-02T01:54:10.642524+00:00: Zero block 960–975 finished 0.718s; everything 976/1023.
+
+- 2026-11-02T01:54:11.453380+00:00: Zero block 976–991 finished 0.751s; everything 992/1023.
+
+- 2026-11-02T01:54:12.265106+00:00: Zero block 992–1007 finished 0.752s; everything 1008/1023.
+
+- 2026-11-02T01:54:13.030835+00:00: Zero block 1008–1022 finished 0.702s; everything 1023/1023.
+
+- 2026-11-02T01:54:13.144824+00:00: The challenge is complete: 1023/1023; new-look 1007; 49.318s. Completed blocks were not repeated.
+
+- 2026-11-02T01:55:04.523258+00:00: The challenge is complete: 1023/1023; new-look 0; 0.100s. Completed blocks were not repeated.
+
+- 2026-11-02T01:57:33.424184+00:00: The challenge is complete: 1023/1023; new-look 0; 0.111s. Completed blocks were not repeated.
+
+- 2026-11-02T01:57:37.190299+00:00: The final reception was: ACCEPTANCE.json. 1023/1023 null; Holm A=1,B=1,C=0.369140625, There's no meaningful signal XOR-recursion goes further wrong; 68 affine/207 polynomial Five strong positive controls are found. FINAL_REPORT.md It preserves the interpretation and boundaries of inference.
+- Completed run And a separate reassembly of the report was repeated 0 remark, 69 scientific files have been preserved SHA-256 and mtime: CACHE_VERIFICATION.json. Local references checked: 21. Shared research files intentionally not edited due to parallel chats; prepared SUMMARY_FOR_MERGE.md.

@@ -1,0 +1,21 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/experiments/order2-quotient-20261106/PROTOCOL.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+> Documentary copy, 2026-11-25. [Beginning](<../../../README.md>) · [Direction](<../../../topics/04-sequences-and-lattices.md>) · [Documents of the series](<INDEX.md>)
+> Historical plans are not a launch mission. The current outcome is [summary](<../../../docs/LATEST_RESULTS.md>).
+
+# O2-Q01 Classes of shift and full projection on No71
+
+Date: 6 November 2026, Europe/Moscow. Continuation O2-ID01. The old results are just being read.
+
+Model: s[i+2]=a*s[i+1]+b*s[i]+c mod p, b!=0, Observations are the same numbers and masks, without a forced higher bita,b,d,c0), wherein x1=0, x2=d, c0=c-(1-a-b)*s1. The compatibility of masks is calculated after the general shift has been restored, rather than by the overlay of old masks x.
+
+Preliminary checks are recorded:
+1. All 27 former small entrances p=7,11,17: The independent search for classes should give exactly the previous full set of fives and forecasts. Truth It doesn't go to the solver.
+2. For each class found, a separate interval algorithm must return exactly all permissible shifts and residues of the target 500 deterministic arbitrary inputs, including contradictory masks, zero width, and complete observations.
+3. Four new synthetic inputs: p=31,61, two non-degenerate examples, SHA-256('O2-Q01|p|case|attempt|field') mod p. Comparison with the previous direct search on the same INPUT; budget 60 A timeout is not considered a negative result floor((i-1)*bit_length(p)/256), goal floor(70*bit_length(p)/256). These small modules are not tested 70 target bit.
+4. 33 The previous full-length synthetic classes: the interval projection from the canonical representative, the comparison with the stored evidence. Here the class is given by the verification code; it is NOT the restoration of unknown coefficients.
+5. Checking the stop/Continuation and immutability of the old experience; completed blocks do not repeat; a set of inputs and code is hashed RESULTS.md.
+
+New Class Search: Full Domain p^3*(p-1), blockage 8192; For each canonical chain, the search for shifts specified by the broadest observation (no more than one of them) ceil(p/2^K)), The other masks are filtered. This is a package-friendly option NumPy-The second, independent interval method does not list shifts at all: O(m^2) class comparisons and O(m) Don't mix winnings within a class with finding a class.
+
+You combine predictions of ALL compatible classes, including degenerate ones. You can't declare one prediction that you find proven with an incomplete coverage 256-Don't run a bit search until the zoom justifies it toy-Excess is not a practical recovery algorithm modulo n. Separately report the cost and obstacle.

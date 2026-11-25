@@ -1,0 +1,23 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/status-reviews/readme-update-20261110/REVIEW.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+> Documentary copy, 2026-11-25. [Beginning](<../../../README.md>) · [Direction](<../../../topics/08-methodology-and-history.md>)
+> Historical plans are not a launch mission. The current outcome is [summary](<../../../docs/LATEST_RESULTS.md>).
+
+# Update of the general README — 10 November 2026
+
+At the request of the user read the decorated [FINAL_REPORT RNG64-05](<../../experiments/prng64-carry-20261110/FINAL_REPORT.md>)him reviews/AUDIT.json, reviews/PARTIAL_SAT.json and COMPLETE.json. All **203 file** The final certificate coincided with the SHA-256; The result of the test is an artifact of the original study (`CARRY_CHECK.json`Search and solvers were not re-started.
+
+Previous [reconciliation 10.11](<../latest-reports-20261110/REVIEW.md>) It's preserved as a historical record, and it says no final audit RNG64-05 The results of the seven other certificates saved there are no longer relevant9281 File recording, without discrepancies, coverage DN-G02 and counters RNG64 Used without recalculating the search.
+
+## What's changed
+
+- Date, top table and full searches supplemented DN-G02: everything 2^31 seed posture 16 circuitry 0 Candidates, continuous coverage DN-R01/DN-G01 They are marked by historical stages.
+- Section RNG64 extended RNG64-01–05 and GPU-The prototype, divided 156 first-series schemes and 60 assemblies of expansion: 50 excluded (12 transfers, 38 new, 10 Open. Summarization of overlapping coatings is excluded.
+- RNG64-05 It's marked by: 1 SAT and 20 UNKNOWN into 21 request, 0 full-time 20 No real entrances allowed.
+- It is noted that the synthetic SAT-The witness differs from the laid state; both satisfy the local 134 It's at least two local states, not ambiguity in the whole series and not getting a real key.
+- GPU-Extrapolations and speeds are divided by batch/checkpoint-The regimes are indicated by the absence of a reduction in space and a complete blind-recovery.
+- The list of future studies has been updated, proposals to repeat closed ones have been excluded.NET and RNG64 models.
+
+Former README saved by-byte README_BEFORE_UPDATE.md - an artifact of the initial study (`README_BEFORE_UPDATE.md`Relative references to the historical copy should be allowed from the root of the research folder ZIP copy Obsidian unchanged.
+
+Check local links and hashes of updated documents are in DOCUMENT_CHECKS.json - an artifact of the initial study (`DOCUMENT_CHECKS.json`; outside the picture.

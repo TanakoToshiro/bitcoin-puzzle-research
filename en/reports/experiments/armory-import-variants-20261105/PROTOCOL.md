@@ -1,0 +1,16 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/experiments/armory-import-variants-20261105/PROTOCOL.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+> Documentary copy, 2026-11-25. [Beginning](<../../../README.md>) · [Direction](<../../../topics/03-wallets.md>) · [Documents of the series](<INDEX.md>)
+> Historical plans are not a launch mission. The current outcome is [summary](<../../../docs/LATEST_RESULTS.md>).
+
+# ARM-IMP-01 Import versions and options Armory
+
+05.11.2026, Europe/Moscow. Limited continuation A1/A1-R2; without searching again for the unknown root without GPU.
+
+Slices to 15.01.2015: v0.88-beta, v0.90-beta, v0.91.1, v0.92, v0.92.3, commit 61a596fa94f9cacf9fb00c4e02d0eb65d8b17513 from 08.01.2015. Tags, commit/date, archives SHA256 Two previous slices are checked against the previous one pins. Other versions are not automatically considered verified.
+
+Generation is first compared root/chaincode, C++-transitions, utility parsers, importation, listings and GUI-Exports. Then selected Python-methods are performed without translation into Python3, on CPython2.7.9 Windows amd64 and Linux64. Real PyQt4, SWIG/C++, file-based wallet, Encryption, network operations do not start: shells are replaced by explicitly labeled adapters. Examples are purely synthetic. CSPRNG replaced by deterministic bytes only when tracing the number of requests; quality RNG It's not measured by a test like that.
+
+Matrix: 16 parser-entry to the version; raw/uppercase/WIF/checksum/mini, single-byte correction and reverse, false/compressed/zero/The three routes of creation of the supplied root/C Two inserts and re-imports. chainIndex=-2 and root Four address list filters sorted helper and the three real-world options GUI writer on a controlled order of records, including chained Recording after importation.
+
+Independent Python3-The check calculates the expected keys, WIF, chaincode and public addresses paper/SecurePrint/fragments/watch-only/sweep, Those that are only traced statically must be separated from the operations performed chaincode publicity masked Mass brute force does not start without a final valid model.

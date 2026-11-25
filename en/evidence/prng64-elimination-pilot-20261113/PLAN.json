@@ -1,0 +1,12 @@
+{
+  "source": "prng64-carry-20261110",
+  "cases": ["plus23-17-26-big-02", "plus23-18-5-big-06"],
+  "projections": ["both_non_anchor_prefixes", "second_full_word_prefix"],
+  "maximum_projected_bits": 16,
+  "maximum_join_bits": 18,
+  "maximum_join_entries_sum": 20000000,
+  "ordering_candidates": [1, 12],
+  "representations": ["original", "ternary"],
+  "selection": "retain the anchor and choose the largest feasible prefix by structure before inspecting its non-anchor values",
+  "score": "exact support size divided by 2^projected_bits for uniformly random bits conditional on the stored synthetic anchor"
+}

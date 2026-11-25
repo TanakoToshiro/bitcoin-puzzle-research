@@ -1,0 +1,9 @@
+> English machine translation of the [Russian source](<../../../../ru/reports/experiments/sequence-qcg-fused-unlimited-20261106/INDEX.md>). Formulae, identifiers and source data are retained. Consult the source if wording is ambiguous.
+
+# sequence-qcg-fused-unlimited-20261106
+
+[Beginning](<../../../README.md>) · [Direction](<../../../topics/04-sequences-and-lattices.md>)
+
+First read the summaries, then the model boundaries and the journal. The protocol doesn't mean completion; the statuses of the individual stages are specified in the final report.
+
+- [SEQ-29 - background launch QCG timelessly README.md](<README.md>)

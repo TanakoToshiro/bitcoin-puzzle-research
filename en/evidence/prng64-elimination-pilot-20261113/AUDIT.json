@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "method": "forward numerical reference on random synthetic states with fixed anchor sums",
+  "seed_first_case": 6111306,
+  "draws_per_case": 1024,
+  "exact_full_support_witnessed": {
+    "plus23-17-26-big-02": {
+      "both_non_anchor_prefixes": {
+        "bits": 2,
+        "offsets": [
+          2,
+          3
+        ],
+        "peak_join_bits": 8,
+        "patterns_seen": 4,
+        "minimum_join_bits_for_more_bits": 21
+      },
+      "second_full_word_prefix": {
+        "bits": 2,
+        "offsets": [
+          3
+        ],
+        "peak_join_bits": 17,
+        "patterns_seen": 4,
+        "minimum_join_bits_for_more_bits": 25
+      }
+    },
+    "plus23-18-5-big-06": {
+      "both_non_anchor_prefixes": {
+        "bits": 2,
+        "offsets": [
+          0,
+          4
+        ],
+        "peak_join_bits": 9,
+        "patterns_seen": 4,
+        "minimum_join_bits_for_more_bits": 23
+      },
+      "second_full_word_prefix": {
+        "bits": 5,
+        "offsets": [
+          4
+        ],
+        "peak_join_bits": 18,
+        "patterns_seen": 32,
+        "minimum_join_bits_for_more_bits": 21
+      }
+    }
+  },
+  "verified_source_hashes": 6,
+  "results_sha256": "e9bd1f2b580a4c649d75f77877c3d6a75a7f08798e74ae1f62b4e1b0020c2afc",
+  "seconds": 0.02958779999971739
+}

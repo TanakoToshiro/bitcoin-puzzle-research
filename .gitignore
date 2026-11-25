@@ -1,0 +1,15 @@
+# Local environments and operational material
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.exe
+*.dll
+*.so
+*.tmp
+.DS_Store
+Thumbs.db
+.obsidian/
