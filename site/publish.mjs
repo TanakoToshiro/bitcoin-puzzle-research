@@ -29,7 +29,7 @@ try {
   run('git', ['add', '--all'], staging);
   if (run('git', ['status', '--porcelain'], staging)) {
     run('git', ['commit', '-m', `Publish website from ${source}`], staging);
-    run('git', ['push', 'origin', 'HEAD:gh-pages'], staging);
+    run('git', ['-c', 'http.postBuffer=52428800', 'push', 'origin', 'HEAD:gh-pages'], staging);
   }
   console.log('Published build to gh-pages; check GitHub Pages deployment status.');
 } finally {
