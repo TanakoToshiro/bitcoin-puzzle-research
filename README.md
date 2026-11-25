@@ -4,6 +4,8 @@ Research into the origins of Bitcoin Puzzle keys, historical generators, wallet 
 
 Исследование происхождения ключей Bitcoin Puzzle: исторические генераторы, дочерние ключи кошельков, подписи, статистические связи и восстановление состояний.
 
+**[Explore the website / Читать на сайте](https://tanakotoshiro.github.io/bitcoin-puzzle-research/)** — English by default; Russian is available in the language switcher. / По умолчанию английский; русский доступен в переключателе языка.
+
 ## Choose a language / Выберите язык
 
 | Language / Язык | Start / Начало | Summary / Сводка | Latest results / Новые результаты |

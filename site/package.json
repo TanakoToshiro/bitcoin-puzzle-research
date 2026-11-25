@@ -1,0 +1,15 @@
+{
+  "name": "bitcoin-puzzle-research-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node preview.mjs",
+    "publish:pages": "node publish.mjs"
+  },
+  "dependencies": {
+    "dompurify": "3.5.0",
+    "katex": "0.19.1",
+    "marked": "18.3.0"
+  }
+}
